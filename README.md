@@ -5,9 +5,9 @@ In the folder ~\data we have created a series of state and state-year level summ
 
 For more detailed descriptions of the measures, please see the paper. For those without library access, a pre-print is available here SOCARXIV LINK.
 
-##DATA FILES
+## DATA FILES
 
-###state_capacity.csv
+### state_capacity.csv
 
 Data used to calculate the capacity of front-line child welfare workforces at the state-year level
 
@@ -18,7 +18,7 @@ Data used to calculate the capacity of front-line child welfare workforces at th
 - supervisors: count of unique valid supervisor identifiers in NCANDS Child File
 - screened_in_reports: count of unique reports that recieved a child welfare agency response
 
-###state_wrkr_data.csv
+### state_wrkr_data.csv
 
 Summary of caseworker-level data at the state-level. Values in this file are summaries of all observed caseworkers for all valid years of the NCANDS data between 2003 and 2015 for each state. See the paper for descriptions of how measures are calculated.
 
@@ -41,25 +41,25 @@ Summary of caseworker-level data at the state-level. Values in this file are sum
 - caseload_mean: Average annual number of cases assigned (cases/tenure), mean
 - caseload_sd: Average annual number of cases assigned (cases/tenure), standard deviation
 
-###turnover_state_year.csv
+### turnover_state_year.csv
 - StaTerr: Two letter state abbreviation
 - year: Year of data submission
 - lower.turnover.caseworker: Annual caseworker turnover (lower-bound), based on maximum promotion assumption (see paper for more detail)
 - upper.turnover.caseworker: Annual observed caseworker turnover (upper-bound)
 - turnover.supervisor: Annual supervisor turnover (no management-level employment data available)
 
-##Replication scripts
+## Replication scripts
 
 These scripts are provided for the purpose of replication, reference, and peer-review. They depend upon access to restricted version of the NCANDS Child File.
 
-###read_ncands.r
+### read_ncands.r
 
 Processes full NCANDS Child File, selects variables needed for analysis and ouputs annual child file with select variables.
 
-###transform_data.r
+### transform_data.r
 
 Processes output of read_ncands.r, screens worker identifiers based on exclusion criteria, computes all measures reported in the paper.
 
-###visuals.r
+### visuals.r
 
 Produces all figures for the paper, produces all descriptive statistics included in the paper. Produces summary files for public release.
