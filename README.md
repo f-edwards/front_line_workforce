@@ -1,7 +1,7 @@
 # front_line_workforce
 Summary data and replication scripts for Edwards, Frank and Christopher Wildeman, 2018,"Characteristics of the front-line child welfare workforce", *Children and Youth Services Review*. [doi:10.1016/j.childyouth.2018.04.013](https://doi.org/10.1016/j.childyouth.2018.04.013)
 
-In the folder .\data we have created a series of state and state-year level summary files using a restricted-access version of the [National Child Abuse and Neglect Data System](https://www.acf.hhs.gov/cb/research-data-technology/reporting-systems/ncands), made available by the US Children's Bureau, in collaboration with the [National Data Archive on Child Abuse and Neglect](https://ndacan.cornell.edu). 
+In the folder /data we have created a series of state and state-year level summary files using a restricted-access version of the [National Child Abuse and Neglect Data System](https://www.acf.hhs.gov/cb/research-data-technology/reporting-systems/ncands), made available by the US Children's Bureau, in collaboration with the [National Data Archive on Child Abuse and Neglect](https://ndacan.cornell.edu). 
 
 For more detailed descriptions of the measures, please see the paper. For those without library access, a pre-print is available at [SocArXiv](https://osf.io/preprints/socarxiv/qh83r/).
 
